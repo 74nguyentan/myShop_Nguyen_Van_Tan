@@ -2,10 +2,11 @@
   <table class="table table-hover ">
     <tbody >
       <tr *ngFor="let item of productCart | async">
-        <th style="width:10%" scope="row">{{item.id}}</th>
+        <th style="width:5%" scope="row">{{item.id}}</th>
+        <td style="width:10%"  ><img src="{{item.image}}" style="width:100px"  alt=""></td>
         <td >{{item.name}}</td>
-        <td style="width:30%">{{item.price}}</td>
-        <td style="width:12%" class="text-center"><a class="btn-delete" (click)="deleteCart(item.id)"><i class="fas fa-trash-alt"></i> Xóa</a></td>
+        <td >{{item.price}}</td>
+        <td  class="text-center"><a class="btn-delete" (click)="deleteCart(item.id)"><i class="fas fa-trash-alt"></i> Xóa</a></td>
       </tr>
      
     </tbody>
