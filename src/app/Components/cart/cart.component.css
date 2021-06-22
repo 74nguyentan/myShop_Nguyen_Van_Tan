@@ -2,6 +2,9 @@
     height: 600px;
    
 }
+.img__cart{
+    width: 60px;
+}
 .btn-delete{
     padding: 10px 15px;
     margin: 0;
