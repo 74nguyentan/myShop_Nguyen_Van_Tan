@@ -9,6 +9,7 @@ import { ListProductComponent } from './Components/list-product/list-product.com
 import { DetailProductComponent } from './Components/detail-product/detail-product.component';
 import { CartComponent } from './Components/cart/cart.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { DeclaresComponent } from './Components/declares/declares.component';
 
 
 
@@ -19,7 +20,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     FooterComponent,
     ListProductComponent,
     DetailProductComponent,
-    CartComponent
+    CartComponent,
+    DeclaresComponent
   ],
   imports: [
     BrowserModule,
